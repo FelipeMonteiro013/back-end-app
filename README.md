@@ -20,20 +20,19 @@ npm start
 
 ## Estrutura de Diretórios
 back-end-app/
-  ├── src/
-  │   ├── index.js
-  │   ├── controller/
-  │   │   ├── ControllerReceita.js
-  │   ├── database/
-  │   │   ├── sequelize.js
-  │   ├── models/
-  │   │   ├── Receita.js
-  │   ├── router.js
-  │   ├── server.js
-  ├── .gitignore
-  ├── package.json
-  ├── README.md
-  └── ...
+├── src/
+│ ├── index.js
+│ ├── controller/
+│ │ ├── ControllerReceita.js
+│ ├── database/
+│ │ ├── sequelize.js
+│ ├── models/
+│ │ ├── Receita.js
+│ ├── router.js
+│ ├── server.js
+├── .gitignore
+├── package.json
+├── README.md
 
 ## Contribuição
 - Felipe Monteiro
