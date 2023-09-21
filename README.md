@@ -8,8 +8,8 @@ Desafio: WebServices em RESTful
 - [Contribuição](#contribuição)
 
 ## Requisitos
-npm v10.1.0 (recomendado)
-node v18.18.0 (recomendado)
+- npm v10.1.0 (recomendado)
+- node v18.18.0 (recomendado)
 
 ## Instalação
 npm install
