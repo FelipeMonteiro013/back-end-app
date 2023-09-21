@@ -5,7 +5,6 @@ Desafio: WebServices em RESTful
 - [Requisitos](#requisitos)
 - [Instalação](#instalação)
 - [Uso](#uso)
-- [Estrutura de Diretórios](#estrutura-de-diretórios)
 - [Contribuição](#contribuição)
 
 ## Requisitos
@@ -18,21 +17,6 @@ npm install
 ## Uso
 npm start 
 
-## Estrutura de Diretórios
-back-end-app/
-├── src/
-│ ├── index.js
-│ ├── controller/
-│ │ ├── ControllerReceita.js
-│ ├── database/
-│ │ ├── sequelize.js
-│ ├── models/
-│ │ ├── Receita.js
-│ ├── router.js
-│ ├── server.js
-├── .gitignore
-├── package.json
-├── README.md
 
 ## Contribuição
 - Felipe Monteiro
