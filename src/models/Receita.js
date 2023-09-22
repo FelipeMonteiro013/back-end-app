@@ -16,6 +16,10 @@ const Receita = sequelize.define("TBL_HT_RECEITA", {
     nome_medico:{
         type: Sequelize.STRING,
         allowNull: false,
+    },
+    medicamento: {
+        type:Sequelize.STRING, 
+        allowNull: false, 
     }
 })
 

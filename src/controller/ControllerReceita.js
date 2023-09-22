@@ -28,11 +28,12 @@ module.exports = {
 
     async Criar(req, res) {
         try {
-            const { nome_paciente, nome_medico } = req.body;
+            const { nome_paciente, nome_medico, medicamento } = req.body;
 
             const NovaReceita = Receita.create({
                 nome_paciente: nome_paciente,
-                nome_medico: nome_medico
+                nome_medico: nome_medico, 
+                medicamento: medicamento
             })
 
             res.status(201).end();
