@@ -6,6 +6,7 @@ const port = 3000;
 
 const sequelize = require('./database/sequelize');
 const Receita = require("./models/Receita");
+const Exame = require("./models/Exame"); 
 
 app.use(cors());
 app.use(express.json());
