@@ -12,10 +12,14 @@ Desafio: WebServices em RESTful
 - node v18.18.0 (recomendado)
 
 ## Instalação
-npm install
+**npm install**
 
 ## Uso
-npm start 
+
+Configure o arquivo **sequelize.js** com os seus dados de conexão do banco oracle.
+
+Execulte o comando no terminal:
+**npm start**
 
 
 ## Contribuição
