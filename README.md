@@ -16,9 +16,9 @@ Desafio: WebServices em RESTful
 
 ## Uso
 
-Configure o arquivo **sequelize.js** com os seus dados de conexão do banco oracle.
+- Configure o arquivo **sequelize.js** com os seus dados de conexão do banco oracle.
 
-Execulte o comando no terminal:
+- Execulte o comando no terminal:
 **npm start**
 
 
