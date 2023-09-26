@@ -3,7 +3,7 @@ const {Sequelize} = require ('sequelize');
 const sequelize = require('../database/sequelize');
 
 const Consulta = sequelize.define("TBL_HT_CONSULTA", {
-    id_receita: {
+    id_consulta: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
         primaryKey: true,
